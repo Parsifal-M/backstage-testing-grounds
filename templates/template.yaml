@@ -28,7 +28,10 @@ spec:
           description: Select the group you belong to
           type: string
           ui:field: OwnedGroupsPicker
-          
+          ui:options:
+            catalogFilter:
+              Kind: Group
+            
     - title: Choose a location
       required:
         - repoUrl
