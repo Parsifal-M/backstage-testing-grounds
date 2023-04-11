@@ -23,6 +23,11 @@ spec:
           ui:autofocus: true
           ui:options:
             rows: 5
+        owner:
+          title: Owner
+          description: Select the group you belong to
+          type: string
+          ui:field: OwnedGroupsPicker
     - title: Choose a location
       required:
         - repoUrl
@@ -34,17 +39,7 @@ spec:
           ui:options:
             allowedHosts:
               - github.com
-    - title: Choose a group
-      required:
-        - group
-      properties:
-        group:
-          title: Group
-          type: string
-          ui:field: OwnedGroupsPicker
-          ui:options:
-            catalogFilter:
-              kind: Group
+          
 
   # These steps are executed in the scaffolder backend, using data that we gathered
   # via the parameters above.
