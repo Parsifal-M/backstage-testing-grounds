@@ -27,7 +27,7 @@ spec:
           title: Owner
           description: Select the group you belong to
           type: string
-          ui:field: OwnershipEntityRefPicker
+          ui:field: MyGroupsPicker
           
 
   # These steps are executed in the scaffolder backend, using data that we gathered
