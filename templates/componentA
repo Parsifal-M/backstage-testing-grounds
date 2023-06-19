@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: componentA
+  description: Something cool here.
+  annotations:
+  jfrog-artifactory/image-name: cockpit,
+spec:
+  type: service
+  lifecycle: production
+  owner: example
