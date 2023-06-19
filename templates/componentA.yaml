@@ -4,7 +4,7 @@ metadata:
   name: componentA
   description: Something cool here.
   annotations:
-    jfrog-artifactory/image-name: 0.1.0-alpha0194
+    jfrog-artifactory/image-name: SomeImage
 spec:
   type: service
   lifecycle: production
